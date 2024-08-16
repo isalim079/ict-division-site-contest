@@ -13,6 +13,7 @@ import Policies from "./Policies";
 import RightToInformation from "./RightToInformation";
 import ServiceProcess from "./ServiceProcess";
 import TopBanner from "./TopBanner";
+import TopBanner2 from "./TopBanner2";
 import VideoPlayer from "./VideoPlayer";
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
         <div className="bg-gray-100 lg:pt-10 lg:pb-20 overflow-x-hidden">
             <Navbar />
             <TopBanner />
+            <TopBanner2 />
             <NoticeBoard />
             <AboutUs />
             <Policies />
