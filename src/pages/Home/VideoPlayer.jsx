@@ -1,6 +1,9 @@
 import ReactPlayer from "react-player";
 import videos from "../../assets/videos.png";
 import anthem from "../../assets/anthem.png";
+import polling from "../../assets/polling.png";
+import opinion from "../../assets/opinion.png";
+import accessibility from "../../assets/accessibility.png";
 import dengue from "../../assets/dengue.jpg";
 import dengue1 from "../../assets/dengue1.png";
 import H5AudioPlayer from "react-h5-audio-player";
@@ -14,16 +17,8 @@ const VideoPlayer = () => {
                 {/* --------------- */}
                 <div className="flex flex-col justify-center items-center space-y-5">
                     <div className="flex flex-col items-center space-y-3 mb-5 md:mb-0">
-                        <img
-                            className="w-10 md:w-20"
-                            src={videos}
-                            alt=""
-                            
-                        />
-                        <h1
-                            className="md:text-lg font-black text-[#683091] border-2 border-[#683091] px-4 py-2 shadow-lg rounded-md"
-                            
-                        >
+                        <img className="w-10 md:w-20" src={videos} alt="" />
+                        <h1 className="md:text-lg font-black text-[#683091] border-2 border-[#683091] px-4 py-2 shadow-lg rounded-md">
                             Important Videos
                         </h1>
                     </div>
@@ -41,16 +36,8 @@ const VideoPlayer = () => {
                 <div>
                     <div>
                         <div className="flex flex-col items-center space-y-3 mb-5 md:mb-0">
-                            <img
-                                className="w-10 md:w-20"
-                                src={anthem}
-                                alt=""
-                              
-                            />
-                            <h1
-                                className="md:text-lg font-black text-[#683091] border-2 border-[#683091] px-4 py-2 shadow-lg rounded-md"
-                              
-                            >
+                            <img className="w-10 md:w-20" src={anthem} alt="" />
+                            <h1 className="md:text-lg font-black text-[#683091] border-2 border-[#683091] px-4 py-2 shadow-lg rounded-md">
                                 National Anthem
                             </h1>
                             <div className="md:w-[360px] shadow-md">
@@ -59,6 +46,22 @@ const VideoPlayer = () => {
                                     src={nationalAnthem}
                                 />
                             </div>
+
+                            <div className="md:flex gap-10">
+                                <div className="flex flex-col items-center cursor-pointer shadow-md p-2">
+                                    <img className="w-12" src={polling} alt="" />
+                                    <h1 className="font-black text-[#683091]">Polling</h1>
+                                </div>
+                                <div className="flex flex-col items-center cursor-pointer shadow-md p-2">
+                                    <img className="w-12" src={opinion} alt="" />
+                                    <h1 className="font-black text-[#683091]">Opinion</h1>
+                                </div>
+                                <div className="flex flex-col items-center cursor-pointer shadow-md p-2">
+                                    <img className="w-12" src={accessibility} alt="" />
+                                    <h1 className="font-black text-[#683091]">Accessibility</h1>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -67,19 +70,15 @@ const VideoPlayer = () => {
 
                 <div>
                     <div className="flex flex-col items-center space-y-3 mb-5 md:mb-0">
-                        <img
-                            className="w-10 md:w-20"
-                            src={dengue1}
-                            alt=""
-                           
-                        />
-                        <h1
-                            className="md:text-lg font-black text-[#683091] border-2 border-[#683091] px-4 py-2 shadow-lg rounded-md"
-                            
-                        >
+                        <img className="w-10 md:w-20" src={dengue1} alt="" />
+                        <h1 className="md:text-lg font-black text-[#683091] border-2 border-[#683091] px-4 py-2 shadow-lg rounded-md">
                             To Prevent Dengue
                         </h1>
-                        <img className="rounded-md shadow-md" src={dengue} alt="" />
+                        <img
+                            className="rounded-md shadow-md"
+                            src={dengue}
+                            alt=""
+                        />
                     </div>
                 </div>
             </div>
