@@ -13,9 +13,9 @@ const NoticeBoard = () => {
 
     return (
         <div>
-            <div className="max-w-screen-xl mx-auto md:mt-36 mt-10 px-2 md:px-0">
-                <div className="md:flex justify-between items-center">
-                    <div className="flex flex-col items-center space-y-3 mb-5 md:mb-0">
+            <div className="max-w-screen-xl mx-auto lg:mt-36 mt-10 px-2 lg:px-0">
+                <div className="lg:flex justify-between items-center">
+                    <div className="flex flex-col items-center space-y-3 mb-5 lg:mb-0">
                         <img className="md:w-20 w-12" src={notice} alt="" data-aos="fade-left" />
                         <h1 className="md:text-4xl font-black text-[#683091] border-2 border-[#683091] md:px-4 md:py-2 px-2 py-1 shadow-lg rounded-md" data-aos="fade-right">Notice Board</h1>
                     </div>

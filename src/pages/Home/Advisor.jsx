@@ -3,7 +3,7 @@ import secretary from '../../assets/secretary.jpg'
 
 const Advisor = () => {
     return (
-        <div className="max-w-screen-xl mx-auto px-2 md:px-0 mt-10 md:mt-36">
+        <div className="max-w-screen-xl mx-auto px-2 md:px-0 mt-10 lg:mt-36">
             <div>
                 <div className='md:flex justify-center gap-10 md:gap-36'>
                 <div className="flex flex-col items-center space-y-5 mb-5 md:mb-0">

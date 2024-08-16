@@ -11,8 +11,8 @@ import youtube from "../../assets/youtube.png";
 
 const Emergency = () => {
     return (
-        <div className="max-w-screen-xl mx-auto md:mt-36 mt-10 px-2 md:px-0">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:gap-24">
+        <div className="max-w-screen-xl mx-auto lg:mt-36 mt-10 px-2 lg:px-0">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-24">
                 {/* ------------------- */}
                 <div className="flex flex-col items-center space-y-5 mb-5 md:mb-0">
                   

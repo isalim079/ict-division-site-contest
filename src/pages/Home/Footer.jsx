@@ -2,8 +2,8 @@ import technicalSupport from '../../assets/technicalSupport.png'
 
 const Footer = () => {
     return (
-        <div className="max-w-screen-xl mx-auto px-2 md:px-0">
-            <footer className="footer bg-gray-200 text-base-content p-10 rounded-xl md:mt-36 mt-10 shadow-lg">
+        <div className="max-w-screen-xl mx-auto px-2 lg:px-0">
+            <footer className="footer bg-gray-200 text-base-content p-10 rounded-xl lg:mt-36 mt-10 shadow-lg">
                 <nav>
                     <h6 className="footer-title">Info</h6>
                     <a className="link link-hover">Sitemap</a>

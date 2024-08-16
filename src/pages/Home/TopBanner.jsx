@@ -12,7 +12,7 @@ import logo from "../../assets/logo.png";
 
 const TopBanner = () => {
     return (
-        <div className="max-w-screen-xl mx-auto hidden md:block">
+        <div className="max-w-screen-xl mx-auto hidden lg:block">
             <div className="shadow-lg">
                 <Swiper
                     style={{

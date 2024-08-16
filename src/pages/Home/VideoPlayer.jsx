@@ -12,13 +12,13 @@ import "react-h5-audio-player/lib/styles.css";
 
 const VideoPlayer = () => {
     return (
-        <div className="max-w-screen-xl mx-auto md:mt-36 mt-10 px-2 md:px-0">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+        <div className="max-w-screen-xl mx-auto lg:mt-36 mt-10 px-2 lg:px-0">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
                 {/* --------------- */}
                 <div className="flex flex-col justify-center items-center space-y-5">
-                    <div className="flex flex-col items-center space-y-3 mb-5 md:mb-0">
-                        <img className="w-10 md:w-20" src={videos} alt="" />
-                        <h1 className="md:text-lg font-black text-[#683091] border-2 border-[#683091] px-4 py-2 shadow-lg rounded-md">
+                    <div className="flex flex-col items-center space-y-3 mb-5 lg:mb-0">
+                        <img className="w-10 lg:w-20" src={videos} alt="" />
+                        <h1 className="lg:text-lg font-black text-[#683091] border-2 border-[#683091] px-4 py-2 shadow-lg rounded-md">
                             Important Videos
                         </h1>
                     </div>
@@ -35,9 +35,9 @@ const VideoPlayer = () => {
                 {/* ----------------- */}
                 <div>
                     <div>
-                        <div className="flex flex-col items-center space-y-3 mb-5 md:mb-0">
-                            <img className="w-10 md:w-20" src={anthem} alt="" />
-                            <h1 className="md:text-lg font-black text-[#683091] border-2 border-[#683091] px-4 py-2 shadow-lg rounded-md">
+                        <div className="flex flex-col items-center space-y-3 mb-5 lg:mb-0">
+                            <img className="w-10 lg:w-20" src={anthem} alt="" />
+                            <h1 className="lg:text-lg font-black text-[#683091] border-2 border-[#683091] px-4 py-2 shadow-lg rounded-md">
                                 National Anthem
                             </h1>
                             <div className="md:w-[360px] shadow-md">
@@ -47,7 +47,7 @@ const VideoPlayer = () => {
                                 />
                             </div>
 
-                            <div className="md:flex gap-10">
+                            <div className="flex gap-10">
                                 <div className="flex flex-col items-center cursor-pointer shadow-md p-2">
                                     <img className="w-12" src={polling} alt="" />
                                     <h1 className="font-black text-[#683091]">Polling</h1>
@@ -69,9 +69,9 @@ const VideoPlayer = () => {
                 {/* ------------------ */}
 
                 <div>
-                    <div className="flex flex-col items-center space-y-3 mb-5 md:mb-0">
-                        <img className="w-10 md:w-20" src={dengue1} alt="" />
-                        <h1 className="md:text-lg font-black text-[#683091] border-2 border-[#683091] px-4 py-2 shadow-lg rounded-md">
+                    <div className="flex flex-col items-center space-y-3 mb-5 lg:mb-0">
+                        <img className="w-10 lg:w-20" src={dengue1} alt="" />
+                        <h1 className="lg:text-lg font-black text-[#683091] border-2 border-[#683091] px-4 py-2 shadow-lg rounded-md">
                             To Prevent Dengue
                         </h1>
                         <img

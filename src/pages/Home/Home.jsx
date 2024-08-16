@@ -17,7 +17,7 @@ import VideoPlayer from "./VideoPlayer";
 
 const Home = () => {
     return (
-        <div className="bg-gray-100 md:pt-10 md:pb-20 overflow-x-hidden">
+        <div className="bg-gray-100 lg:pt-10 lg:pb-20 overflow-x-hidden">
             <Navbar />
             <TopBanner />
             <NoticeBoard />

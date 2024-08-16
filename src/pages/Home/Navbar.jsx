@@ -2,7 +2,7 @@
 const Navbar = () => {
     return (
         <div className="pb-5">
-            <div className="max-w-screen-xl mx-auto md:rounded-lg py-5 shadow-lg bg-[#683091] text-white">
+            <div className="max-w-screen-xl mx-auto lg:rounded-lg py-5 shadow-lg bg-[#683091] text-white">
                 <div className="flex justify-around items-center">
                     <div className="flex flex-row-reverse md:flex-row items-center space-x-4">
                         <div>
@@ -362,7 +362,7 @@ const Navbar = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="md:flex space-x-4 hidden">
+                    <div className="lg:flex space-x-4 hidden">
                         <div className="space-x-3">
                             <select className="text-black px-2 py-1 rounded-md">
                                 <option value="">অফিসের ধরণ</option>
