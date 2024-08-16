@@ -20,7 +20,7 @@ const Navbar = () => {
 
                                 <ul
                                     tabIndex={0}
-                                    className="dropdown-content menu bg-base-100 rounded-box z-[1] p-2 shadow text-black"
+                                    className="dropdown-content menu rounded-box z-[1] p-2 shadow text-black bg-white"
                                 >
                                     <li className="menu lg:menu-horizontal rounded-box">
                                         <details>
