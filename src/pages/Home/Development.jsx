@@ -27,7 +27,7 @@ const Development = () => {
                             Development
                         </h1>
                     </div>
-                    <div className="space-y-4 border-l-2 border-[#683091] pl-5 rounded-md max-w-[50%]">
+                    <div className="space-y-4 border-l-2 border-[#683091] pl-5 rounded-md">
                         <div
                             className="flex items-center gap-3 bg-white/60 py-3 px-4 rounded-md shadow-md hover:bg-green-500 hover:text-white cursor-pointer hover:shadow-sm transition-all duration-300 ease-in-out"
                             data-aos="fade-up"

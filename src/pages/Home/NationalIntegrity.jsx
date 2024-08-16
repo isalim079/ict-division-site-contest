@@ -13,7 +13,7 @@ const NationalIntegrity = () => {
     return (
         <div>
             <div className="max-w-screen-xl mx-auto md:mt-36 mt-10 px-2 md:px-0">
-                <div className="md:flex justify-between items-center">
+                <div className="md:flex md:gap-14 justify-between items-center">
                     <div className="md:flex justify-center gap-10 items-center">
                         <div className="flex flex-col items-center space-y-3 mb-5 md:mb-0">
                             <img
@@ -57,7 +57,9 @@ const NationalIntegrity = () => {
                             </div>
                         </div>
                     </div>
+                    <div>
                     <Grievance />
+                    </div>
                 </div>
             </div>
         </div>
