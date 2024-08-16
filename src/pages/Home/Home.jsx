@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import NoticeBoard from "./NoticeBoard";
 import Policies from "./Policies";
 import RightToInformation from "./RightToInformation";
+import ServiceProcess from "./ServiceProcess";
 import TopBanner from "./TopBanner";
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <CitizenCharter />
             <NationalIntegrity />
             <RightToInformation />
+            <ServiceProcess />
         </div>
     );
 };
