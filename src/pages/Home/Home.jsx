@@ -1,4 +1,5 @@
 import AboutUs from "./AboutUs";
+import Budget from "./Budget";
 import CitizenCharter from "./CitizenCharter";
 import NationalIntegrity from "./NationalIntegrity";
 import Navbar from "./Navbar";
@@ -20,6 +21,7 @@ const Home = () => {
             <NationalIntegrity />
             <RightToInformation />
             <ServiceProcess />
+            <Budget />
         </div>
     );
 };
